@@ -6,7 +6,7 @@
 </div>
 
 
-### Inspiration 🌟
+### Inspiration 
 Imagine a woman trapped in silence, enduring daily fear and abuse, unable to seek help because her every move is monitored. For millions of women worldwide, this is a daily reality.  
 **Haven** is an innovative 🌐 AI-powered solution designed to empower women in abusive situations by providing discreet ways to seek help, access mental health support, and receive legal guidance—without the risk of exposure.
 
@@ -18,12 +18,12 @@ https://haven-aws.framer.website/
 
 <br/>
 
-## What it Does 💡
+## What it Does 
 
 ### Problem Statement 
 Globally, **1 in 3 women** experiences physical or sexual violence in her lifetime, often by an intimate partner. In India, **30% of women** have faced domestic violence at least once (WHO, National Family Health Survey). Abusers often control and monitor digital communications, isolating these women and preventing them from safely reaching out for help.
 
-### Haven’s Solution 💪
+### Haven’s Solution 
 
 - **Discreet SOS Messaging through Steganography**  
   Women in abusive relationships are often unable to directly call out for help. Social media profiles and call histories are under constant surveillance by their abuser, making it difficult to seek assistance openly.  
@@ -39,12 +39,12 @@ Globally, **1 in 3 women** experiences physical or sexual violence in her lifeti
 
 ---
 
-## Detailed Description 📝
+## Detailed Description 
 
 ### 1. Discreet SOS Messaging through Steganography
 For many women in abusive relationships who live under constant monitoring, finding a way to ask for help without alerting their abusers is critical. Haven introduces a revolutionary SOS messaging system, using **steganography** to encode distress signals within innocent-looking images, like flowers or landscapes.
 
-### How it Works 🛠️
+### How it Works 
 
 On the user side, Haven’s process begins with message generation, where the user enters brief details of their situation. Our LLM expands these inputs into complete, coherent sentences. The user then chooses an image prompt, like a flower or landscape, which the AI generates and encodes with the distress message through steganography. Once complete, the user shares this seemingly ordinary image on social media, where it appears innocuous to others, including any abusers monitoring the profile.
 
@@ -56,7 +56,7 @@ On the authority side, Haven's system continuously monitors social media for SOS
 
 ![alt](https://i.ibb.co/X2GTbYc/napkin-selection-4.png)
 
-### What Sets Haven Apart 🌠
+### What Sets Haven Apart 
 
 - **Fast and Simple Communication:** Women in high-stress situations can quickly type keywords; our AI generates a full distress message, reducing time and risk.
 - **Innovative Steganography Approach:** Hidden messages within everyday photos ensure total privacy from abusers, making the post appear harmless while alerting authorities.
@@ -139,7 +139,7 @@ Whether a user experiences **panic attacks**, **emotional exhaustion**, or simpl
 
 
 
-### ✨ **What Sets It Apart:**
+###  **What Sets It Apart:**
 
 - **Tailored to Abuse Survivors:**  
   Unlike generic mental health apps, our AI avatar is specially trained to recognize and address the **unique psychological needs** of abuse survivors. The AI offers strategies that speak directly to the trauma of **intimate partner violence**, helping survivors manage their symptoms more effectively.
@@ -148,7 +148,7 @@ Whether a user experiences **panic attacks**, **emotional exhaustion**, or simpl
   By leveraging data from previous interactions, the AI avatar provides a **tailored experience**, understanding emotional states and offering more relevant support.  
   **(Data storage only with user consent)**
 
-- **💬 Real-Time, Empathetic Conversations:**  
+- ** Real-Time, Empathetic Conversations:**  
   The avatar uses **advanced facial expression** and **animation control** to respond empathetically, ensuring that the user feels heard and understood during every interaction.
 
 - **24/7 Mental Health Support:**  
@@ -156,7 +156,7 @@ Whether a user experiences **panic attacks**, **emotional exhaustion**, or simpl
 
 
 
-### 🛠️ **Technical Details:**
+###  **Technical Details:**
 ![Image](https://storage.googleapis.com/example-offi-1/therapy%20bot%20flow%20amazon.webp)
 
 - **Model and Animation Loading:**  
@@ -191,22 +191,22 @@ Haven is not just about providing immediate emotional and physical safety—it�
 
 In many parts of the world, only 14% of women have access to formal legal assistance , often due to cultural barriers, financial constraints, or lack of awareness. Haven aims to bridge this critical gap by offering **free, accessible legal guidance** at their fingertips 
 
-### **How It Works: 🤖**
+### **How It Works: **
 
 Haven’s law bot is designed to provide **clear, understandable** information on a wide range of legal issues, tailored to the user’s unique situation . Women in need can simply ask the bot questions related to **abuse**, **divorce**, **child custody**, **property rights**, or other legal concerns, and receive instant, easy-to-understand responses based on national and international laws 
 
 ![Law Bot Image](https://i.ibb.co/cXR59by/napkin-selection-2.png)
 
 
-### **What Sets It Apart: 💡**
+### **What Sets It Apart: **
 
-- **Accessible, On-Demand Legal Support:** Unlike traditional legal systems where waiting for an appointment or expensive consultations can delay action, the Haven law bot is available 24/7 to provide **immediate legal advice** 🕒. Women no longer have to wait to understand their rights or options; the bot offers quick, reliable answers to legal queries at any time.
+- **Accessible, On-Demand Legal Support:** Unlike traditional legal systems where waiting for an appointment or expensive consultations can delay action, the Haven law bot is available 24/7 to provide **immediate legal advice** . Women no longer have to wait to understand their rights or options; the bot offers quick, reliable answers to legal queries at any time.
   
 - **Global Reach & Customizable to Local Laws:** Haven’s law bot is designed to adapt to various countries' laws . Whether users are in **India**, the **US**, or beyond, they will receive information specific to their region's legal framework, ensuring the advice is **relevant** and **applicable** to their situation.
 
 - **Empowerment Through Knowledge:** Legal systems can often feel intimidating or inaccessible, especially for women facing abuse or discrimination. By providing easy access to legal resources, Haven empowers women to take **informed action**. It helps them advocate for their rights, pursue justice, and better understand the complexities of legal processes 
 
-### **Technical Details 🛠️**
+### **Technical Details **
 ![Law Bot Image](https://storage.googleapis.com/example-offi-1/law%20bot%20tech.webp)
 
 **Preprocessing Phase (Document Embedding Preparation) :**
@@ -347,7 +347,7 @@ NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 
 ---
 
-### **Where MongoDB is used 🤖:**
+### **Where MongoDB is used :**
 - Used as db for distress sos message and for saving culprit info & embedding
 ![Law Bot Image](https://storage.googleapis.com/example-offi-1/mongo.webp)
 
@@ -361,11 +361,11 @@ NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 The mongo instance is running on AWS
 ![Law Bot Image](https://storage.googleapis.com/example-offi-1/mongo%20on%20aws.webp)
 
-### **How AI Is Used Throughout the Project 🤖:**
+### **How AI Is Used Throughout the Project :**
 
 **(Category: Best Use of Amazon Bedrock)**
 
-- Text Generation and Text Expansion ✍️
+- Text Generation and Text Expansion 
 
   - AI powers Haven's ability to transform brief, incomplete messages into coherent, full distress signals. Through Large Language Models (LLMs) like Titan Text G1 - Express, Haven expands user input, turning simple keywords or short phrases into comprehensive messages. This is essential in high-stress situations where a woman may not have the time or mental clarity to articulate her circumstances in full. The model ensures that the message accurately represents the severity of the situation while still being discreet.
   - Example: If a user types “help, scared, locked in room,” the AI expands it into a full message like: "I am trapped in my room, scared and unable to leave. Please help me." This message is then encoded in an image to be shared safely.
@@ -377,35 +377,35 @@ The mongo instance is running on AWS
     When an authority initiates a search by selecting "Find Match," the system performs a cosine similarity operation on the stored embeddings. By comparing the incoming profile with existing data, the system identifies top N matches based on similarity scores, allowing authorities to see connections across reported cases.
   - Using **Titan Text G1 - Express** LLM model
 
-- AI-Powered Poem Generation 📝
+- AI-Powered Poem Generation 
 
   - In moments of emotional distress, sometimes the simplest words can bring comfort. Haven's AI-Powered Poem Generator provides empowering, reassuring poems designed to remind women that help is on the way and that they are not alone. The AI generates short, encouraging poems based on the user's emotional state or current needs. These poems are designed to provide emotional support and the assurance that change is possible.
   - Using **Titan Text G1 - Express** LLM model
 
-- AI to Detect Severity of Situations 🚨
+- AI to Detect Severity of Situations 
 
   - The LLM processes large text inputs and sorts them based on the severity and nature of the abuse, making it easier for authorities to quickly take action without reading through long descriptions. 
 
-- Image Generation 🖼️
+- Image Generation 
 
   - AI is used to create custom images based on user input, such as landscapes, flowers, or everyday objects. This enables the use of steganography—embedding distress messages within the images. These generated images appear completely innocent to outsiders, while secretly containing encoded help requests.
   - Example: A user may select an image of a flower. The AI embeds a distress message, which looks like a normal social media post but contains a hidden cry for help when decoded.
   - Using **Titan Image Generator VI** LLM model
 
-- AI-Powered Law Bot for Legal Support ⚖️
+- AI-Powered Law Bot for Legal Support 
 
   - Haven’s Law Bot leverages AI to offer instant, confidential legal guidance. Trained on a vast array of legal resources—including national constitutions, local laws, and case precedents—the AI provides women with easy-to-understand answers to their legal questions, empowering them to take control of their situations. The Law Bot breaks down complex legal jargon into simple language, ensuring clarity and accessibility.
   - Example: A user can ask, "What should I do if my spouse is abusing me?" and the Law Bot will provide a clear step-by-step answer based on the relevant legal rights, such as filing a complaint or seeking a restraining order. 
   - Using **Titan Text G1 - Express** LLM model
 
-- Therapy Bot for Mental Health Support 💬
+- Therapy Bot for Mental Health Support 
 
   - Haven’s Therapy Bot uses AI to provide personalized mental health support. This bot offers coping strategies, emotional support, and mindfulness exercises to help women manage anxiety, depression, and PTSD. By analyzing the user's input, the AI tailors its responses to the emotional state of the user, ensuring relevant advice is given in real-time.
   - Example: If a user is feeling anxious, the Therapy Bot may suggest breathing exercises, a grounding technique, or offer calming affirmations to reduce stress.
   - Using **Titan Text G1 - Express** LLM model
 
 
-- Vector Embedding for Personalized Experience 🧠
+- Vector Embedding for Personalized Experience 
 
   - To make interactions with the AI more personalized and contextually aware, vector embeddings are used to store and retrieve information. For each user, key data points (like their emotional state, past conversations, and preferences) are stored in MongoDB using embeddings generated from AI models like Sentence Transformers. This allows the AI to provide more informed responses over time.
   - Example: The AI can remember past interactions, such as a user’s previous emotional states or preferred coping strategies. This personalized knowledge allows the AI to provide more targeted advice, improving the support it offers over time.
