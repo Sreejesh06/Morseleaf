@@ -8,8 +8,11 @@ backend/__pycache__/
 backend/utils/__pycache__/*
 frontend/.env.local
 frontend/node_modules
-branch_structure.json
-temp_auto_push.bat
-temp_interactive_push.bat
+
+# Security and Environment
+*.local
+.tmp/
+init
+
 config.bat
 node_modules
